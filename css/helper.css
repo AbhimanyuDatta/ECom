@@ -6,7 +6,6 @@
 }
 .navbar{
 	height: 400px;
-    background-image: url(login.jpg);
 }
 .search-form{
 	margin-top: 150px;
@@ -31,10 +30,11 @@
 
 /* Login CSS */
 #login-text{
-	color: white;
+	color: black;
+    text-decoration: underline;
 }
 .caret{
-	color:white;
+	color: black;
 }
 .navbar-login .navbar-text{
 	color:white ;
