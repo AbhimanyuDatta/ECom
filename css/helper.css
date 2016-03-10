@@ -5,7 +5,7 @@
     font-size: 50px;
 }
 .navbar{
-	height: 50px;
+	height: 400px;
 }
 .search-form{
 	margin-top: 150px;
@@ -13,6 +13,11 @@
 .topbar
 {
     background-image: url(login.jpg);
+}
+
+.jumbotron
+{
+    background-color: rgba(0,175,255,0.5);
 }
 
 .deal-box
