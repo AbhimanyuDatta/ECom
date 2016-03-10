@@ -5,25 +5,25 @@
     font-size: 50px;
 }
 .navbar{
-	height: 400px;
+	height: 50px;
 }
 .search-form{
 	margin-top: 150px;
 }
-
-.jumbotron
+.topbar
 {
-    
+    background-image: url(login.jpg);
 }
 
 .deal-box
 { 
     float: left;
-    height:250px;
-    width: 100px;
+    height:200px;
+    width: 245px;
     display: block;
     border: 2px solid black;
 }
+
 .black-caret{
     color:black;
     float: left;
@@ -32,15 +32,21 @@
 #left-side{
     margin-left: 0px;
 }
-
+.deal-box img
+{
+    height: 200px;
+    width:245px;
+}
 
 
 
 
 /* Login CSS */
 #login-text{
-	color: white;
+	color: black;
+    text-decoration: underline;
 }
+
 .white-caret{
 	color:white;
 }
