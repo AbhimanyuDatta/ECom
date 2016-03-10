@@ -6,23 +6,24 @@
 }
 .navbar{
 	height: 400px;
+    background-image: url(login.jpg);
 }
 .search-form{
 	margin-top: 150px;
 }
-
+.topbar
+{
+    background-image: url(login.jpg);
+}
 .jumbotron
 {
-    width: 950px;
-    float: left;
-    left: 250px;
 }
 
 .deal-box
 {
     float: left;
-    height:250px;
-    width: 100px;
+    height:100px;
+    width: 245px;
     display: block;
     border: 2px solid black;
 }
