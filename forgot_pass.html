@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>krANzaa</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel = "icon" type = "icon" href = "images\\icon.jpg"></link>
+		<link rel = "stylesheet" type = "text/css" href = "bootstrap.min.css"></link>
+		<link rel = "stylesheet" type = "text/css" href = "css/helper.css"></link>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<style>
+			.navbar
+			{
+				height: 50px;
+			}
+			#passGen
+			{
+				margin-top: 100px;
+				margin-left: 500px;
+				height: 600px;
+				width: 600px;
+				border: 2px solid black;
+				box-shadow: 10px 10px 7px #888888;
+				border-radius: 15px;
+			}
+			#passGen ul li
+			{
+				float: left;
+				font-family: Comic Sans MS, cursive, sans-serif;
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			#passGen ul li:last-of-type
+			{
+				margin-bottom: 100px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class = "navbar navbar-default" style = "background-color: rgba(1,165,136,0.9);">
+			<div class = "container-fluid">
+				<div class = "navbar-header">
+					<a class = "navbar-brand" href = "index.html" targer = "_blank" style = "color: black">krANzaa</a>
+				</div>
+			</div>
+		</nav>
+		<div id = "passGen">
+			<h2 style = "font-family: Lucida Sans Unicode, serif; color: red; text-align: center">Forgot Password</h2>
+			<br><br><br>
+			<p style = "font-family: Times New Roman, serif; font-size: 25px; text-align: center">Follow the step to create a new password</p>
+			<br>
+			<ul>
+				<li>Enter the email id which is used with your account.</li>
+				<li>Answer the security question that follows.</li>
+				<li>The link to create a new password will be sent to your registered email id.</li>
+			</ul>
+			<br><br>
+			<form>
+				<center>
+				<div class="form-group">
+					<label class="sr-only" for="exampleInputEmail2">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required style = "width: 50%">
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary btn-block" style = "width: 25%">Continue</button>
+				</div>	
+				</center>											
+			</form>
+		</div>
+	</body>
+
+</html>

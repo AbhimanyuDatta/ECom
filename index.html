@@ -3,7 +3,7 @@
 <head>
 	<title>krANzaa</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel = "icon" type = "icon" href = "icon.jpg"></link>
+	<link rel = "icon" type = "icon" href = "images\\icon.jpg"></link>
 	<link rel = "stylesheet" type = "text/css" href = "bootstrap.min.css"></link>
 	<link rel = "stylesheet" type = "text/css" href = "css/helper.css"></link>
 	<!-- jQuery library -->
@@ -27,7 +27,7 @@
 	.topbar
 	{
 		margin-bottom: 0px;
-		background-image: url(topbar.png);
+		background-image: url(images/topbar.png);
 	}
 	#left-side
 	{
@@ -50,37 +50,35 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b id="login-text">Login</b> <span class="caret white-caret"></span></a>
 					<ul id="login-dp" class="dropdown-menu">
 						<li>
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-md-12">
-										Login via
-										<div class="social-buttons">
-											<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-											<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+							<div class="row">
+								<div class="col-md-12">
+									Login via
+									<div class="social-buttons">
+										<a href="https://www.facebook.com/login/" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+										<a href="https://twitter.com/login" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+									</div>
+									<form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											<label class="sr-only" for="exampleInputEmail2">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
 										</div>
-										<form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
-											<div class="form-group">
-												<label class="sr-only" for="exampleInputEmail2">Email address</label>
-												<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
-											</div>
-											<div class="form-group">
-												<label class="sr-only" for="exampleInputPassword2">Password</label>
-												<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
-												<div class="help-block text-right"><a href="">Forget the password ?</a></div>
-											</div>
-											<div class="form-group">
-												<button type="submit" class="btn btn-primary btn-block">Sign in</button>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Keep me logged-in
-												</label>
-											</div>
-										</form>
-									</div>
-									<div class="bottom text-center">
-										New here ? <a href="#"><b>Join Us</b></a>
-									</div>
+										<div class="form-group">
+											<label class="sr-only" for="exampleInputPassword2">Password</label>
+											<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+											<div class="help-block text-right"><a href="forgot_pass.html" target = "_blank">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											<button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Keep me logged-in </input>
+											</label>
+										</div>
+									</form>
+								</div>
+								<div class="bottom text-center">
+									New here ? <a href="#"><b>Join Us</b></a>
 								</div>
 							</div>
 						</li>
@@ -98,7 +96,7 @@
 								<option value = "Delhi">Delhi NCR</option>
 								<option value = "Mumbai">Mumbai</option>
 							</select>
-							<input type="text" class="form-control" name = "search" placeholder="Stores near you..." style="width:670px; height:50px;"></input>
+							<input type="text" class="form-control" name = "search" placeholder="Stores near you..." style="width:600px; height:50px;"></input>
 							<button type="submit" class="btn btn-default">Go</button>
 						</div>
 					</form>
@@ -132,60 +130,61 @@
 								<h2>Deals of the day</h2>
 							</div>
 						</div>
-						<br><br><br><br>
-						<div class = "deal-box">
-							<img src = "deal1.jpg"></img>
-						</div>
-						<div class = "deal-box">
-							<img src = "deal2.jpg" alt="Deal"></img>
-						</div>
-						<div class = "deal-box">
-							<img src = "deal3.jpg" alt = "Deal"></img>
-						</div>
-						<div class = "deal-box">
-							<img src = "deal4.jpg" alt = "Deal"></img>
-						</div>		
-						<div class = "deal-box">
-							<img src = "deal5.jpg" alt = "Deal" title = "Newest openings near you"></img>
-						</div>
-						<div class = "deal-box">
-							<img src = "deal6.jpg" alt = "Deal" title = "Surprises for everyone"></img>
-						</div>
-						<div class = "deal-box">
-							<img src = "deal7.jpg" alt = "Deal" title = "Buy and sell. Pay your bill."></img>
-						</div>
-						<div class = "deal-box">
-							<img src = "deal8.jpg" alt = "Deal"></img>
-						</div>
-						<br><br>
-						
-					</center>
-				</div>
+							<div class = "deal-box">
+								<img src = "images\\deal1.jpg" alt = "Deal" title = "Clothes and apparals"></img>
+							</div>
+							<div class = "deal-box">
+								<img src = "images\\deal2.jpg" alt="Deal"></img>
+							</div>
+							<div class = "deal-box">
+								<img src = "images\\deal3.jpg" alt = "Deal" title = "Furnitures"></img>
+							</div>
+							<div class = "deal-box">
+								<img src = "images\\deal4.jpg" alt = "Deal" title = "Login required to view these deals"></img>
+							</div>		
+							<div class = "deal-box">
+								<img src = "images\\deal5.jpg" alt = "Deal" title = "Newest openings near you"></img>
+							</div>
+							<div class = "deal-box">
+								<img src = "images\\deal6.jpg" alt = "Deal" title = "Surprises for everyone"></img>
+							</div>
+							<div class = "deal-box">
+								<img src = "images\\deal7.jpg" alt = "Deal" title = "Buy and sell. Pay your bill."></img>
+							</div>
+							<div class = "deal-box">
+								<img src = "images\\deal8.jpg" alt = "Deal"></img>
+							</div>
+							<br><br>
+
+						</center>
+					</div>
+
+				</center>
 			</div>
 		</div>
-		<div style = "margin-top: 25px">
-			<h2 style = "text-align: center">About Us</h2>
-			<blockquote style = "text-align: center">
-				krANzaa&trade; is store search and discovery service that would facilitate its customers 					
-				to search through local wearable and accessories stores.  
-				
-				At krANzaa&trade; our sole aim is to provide information to consumers about their products 
-				that would cater to their needs. We provide information about the stores near the 
-				customers that sell these products.
+	</div>
+	<h2 style = "text-align: center">About Us</h2>
+	<blockquote style = "text-align: center">
+		krANzaa&trade; is store search and discovery service which facilitates our customers 					
+		to search through local wearable and accessories stores.  
 
-				krANzaa&trade; is a one stop web service for locating nearby stores and to get best stores 
-				in a particular locality by providing review by customers.
-			</blockquote>
-		</div>
-		<center>
-			<div class = "navFooter" style = "clear: both">
-				<a href = "#web-top">
-					<div class = "navFooterBackToTop">
-						<span class = "navFooterBackToTopText">Back to Top</span>
-					</div>
-				</a>
-			</div>	
-		</center>
+		At krANzaa&trade; our sole aim is to provide information to consumers about the products 
+		that would cater to their needs. We provide information about the stores located near the 
+		customers that sell these products.
 
-	</body>
-	</html>
+		krANzaa&trade; is a one stop web service for locating nearby stores and to get best stores 
+		in a particular locality by providing review by customers.
+	</blockquote>
+</div>
+<center>
+	<div class = "navFooter" style = "clear: both">
+		<a href = "#web-top">
+			<div class = "navFooterBackToTop">
+				<span class = "navFooterBackToTopText">Back to Top</span>
+			</div>
+		</a>
+	</div>	
+</center>
+
+</body>
+</html>
