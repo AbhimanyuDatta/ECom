@@ -17,7 +17,9 @@
 
 .jumbotron
 {
-    background-color: rgba(0,175,255,0.5);
+    background-color: rgba(1,165,136,0.9);
+    margin-top: 20px;
+    color: white;
 }
 
 .deal-box
@@ -28,12 +30,7 @@
     display: block;
     border: 2px solid black;
 }
-
-.black-caret{
-    color:black;
-    float: left;
-}
-
+    
 #left-side{
     margin-left: 0px;
 }
@@ -43,8 +40,14 @@
     width:245px;
 }
 
+.nav-stacked{
+    margin-top: 30px;
+}
 
-
+.nav-stacked>li>a:hover{ 
+    background-color:rgba(1,165,136,0.9); 
+    color: white;
+}
 
 /* Login CSS */
 #login-text{
@@ -52,8 +55,8 @@
     text-decoration: underline;
 }
 
-.white-caret{
-	color:white;
+.caret{
+	color:black;
 }
 .navbar-login .navbar-text{
 	color:white ;
@@ -108,4 +111,21 @@
         background-color: inherit;
         border-top:0 none;
     }
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+     background-color: rgba(1,165,136,0.9);
+}
+
+a{
+    color: black;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: rgba(1,165,136,0.9);
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: rgba(1,165,136,0.9);   
 }
