@@ -23,14 +23,15 @@
 {
     float: left;
     height:200px;
-    width: 245px;
+    width: 300px;
     display: block;
     border: 2px solid black;
 }
 .deal-box img
 {
     height: 200px;
-    width:245px;
+    width:  300px;
+    border: 2px solid black;
 }
 
 /* Login CSS */

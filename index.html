@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KRANzaa</title>
+	<title>krANzaa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel = "icon" type = "icon" href = "icon.jpg"></link>
 	<link rel = "stylesheet" type = "text/css" href = "bootstrap.min.css"></link>
 	<link rel = "stylesheet" type = "text/css" href = "css/helper.css"></link>
@@ -32,11 +33,11 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default topbar">
+	<nav class="navbar navbar-default topbar" id = "web-top">
 
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#" style = "color: black">KRANzaa</a>
+				<a class="navbar-brand" href="#" style = "color: black">krANzaa</a>
 			</div>
 			<ul class="nav navbar-nav navbar-right navbar-login">
 				<li><p class="navbar-text" style = "color: black">Already have an account?</p></li>
@@ -96,54 +97,76 @@
 			</div>
 			<div class="col-sm-2"></div>
 		</div>
-		</nav>
-		<div class = "col-sm-2">
-			<ul class="nav nav-pills nav-stacked" id = "left-side">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Menu 1</a></li>
-				<li><a href="#">Menu 2</a></li>
-				<li><a href="#">Menu 3</a></li>
-			</ul>
-		</div>
-	<div class = "col-sm-8">
+	</nav>
+	
+	<div class = "col-sm-2">
+		<ul class="nav nav-pills nav-stacked" id = "left-side">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Menu 1</a></li>
+			<li><a href="#">Menu 2</a></li>
+			<li><a href="#">Menu 3</a></li>
+		</ul>
+	</div>
+
+	<div class = "col-sm-10">
 		<center>
 			<div class = "container-fluid">
 				<div class ="jumbotron">
 					<h2>Deals of the day</h2>
 				</div>
 			</div>
-		<br><br><br><br>
-		<div class = "deal-box">
-			<img src = "deal1.jpg"></img>
-		</div>
-		<div class = "deal-box">
-			<img src = "deal2.jpg" alt="Deal"></img>
-		</div>
-		<div class = "deal-box">
-			<img src = "deal3.jpg" alt = "Deal"></img>
-		</div>
-		<div class = "deal-box">
-			<img src = "deal4.jpg" alt = "Deal"></img>
-		</div>
-		<br><br><br><br><br>
-		<div class = "deal-box" style = "padding-left: 50px">
-			<img src = "deal5.jpg" alt = "Deal"></img>
-		</div>
-		<div class = "deal-box">
-			<img src = "deal6.jpg" alt = "Deal"></img>
-		</div>
-		<div class = "deal-box">
-			<img src = "deal7.jpg" alt = "Deal"></img>
-		</div>
-		<div class = "deal-box">
-			<img src = "deal8.jpg" alt = "Deal"></img>
-		</div>
+			<br><br><br><br>
+			<div class = "deal-box">
+				<img src = "deal1.jpg"></img>
+			</div>
+			<div class = "deal-box">
+				<img src = "deal2.jpg" alt="Deal"></img>
+			</div>
+			<div class = "deal-box">
+				<img src = "deal3.jpg" alt = "Deal"></img>
+			</div>
+			<div class = "deal-box">
+				<img src = "deal4.jpg" alt = "Deal"></img>
+			</div>		
+			<div class = "deal-box">
+				<img src = "deal5.jpg" alt = "Deal" title = "Newest openings near you"></img>
+			</div>
+			<div class = "deal-box">
+				<img src = "deal6.jpg" alt = "Deal" title = "Surprises for everyone"></img>
+			</div>
+			<div class = "deal-box">
+				<img src = "deal7.jpg" alt = "Deal" title = "Buy and sell. Pay your bill."></img>
+			</div>
+			<div class = "deal-box">
+				<img src = "deal8.jpg" alt = "Deal"></img>
+			</div>
+			<br><br>
+			
 		</center>
 	</div>
-	
-	<div class = "col-sm-2">
+	<div style = "margin-top: 25px">
+		<h2 style = "text-align: center">About Us</h2>
+			<blockquote style = "text-align: center">
+				krANzaa&trade; is store search and discovery service that would facilitate its customers 					
+				to search through local wearable and accessories stores.  
+				
+				At krANzaa&trade; our sole aim is to provide information to consumers about their products 
+				that would cater to their needs. We provide information about the stores near the 
+				customers that sell these products.
+
+				krANzaa&trade; is a one stop web service for locating nearby stores and to get best stores 
+				in a particular locality by providing review by customers.
+			</blockquote>
 	</div>
+	<center>
+	<div class = "navFooter" style = "clear: both">
+		<a href = "#web-top">
+			<div class = "navFooterBackToTop">
+				<span class = "navFooterBackToTopText">Back to Top</span>
+			</div>
+		</a>
+	</div>	
+	</center>
 
-	</body>
-
-	</html>
+</body>
+</html>
