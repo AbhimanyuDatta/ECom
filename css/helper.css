@@ -11,8 +11,21 @@
 	margin-top: 150px;
 }
 
+.jumbotron
+{
+    width: 950px;
+    float: left;
+    left: 250px;
+}
 
-
+.deal-box
+{
+    float: left;
+    height:250px;
+    width: 100px;
+    display: block;
+    border: 2px solid black;
+}
 
 
 /* Login CSS */
