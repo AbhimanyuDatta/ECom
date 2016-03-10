@@ -13,26 +13,35 @@
 
 .jumbotron
 {
-    width: 950px;
-    float: left;
-    left: 250px;
+    
 }
 
 .deal-box
-{
+{ 
     float: left;
     height:250px;
     width: 100px;
     display: block;
     border: 2px solid black;
 }
+.black-caret{
+    color:black;
+    float: left;
+}
+
+#left-side{
+    margin-left: 0px;
+}
+
+
+
 
 
 /* Login CSS */
 #login-text{
 	color: white;
 }
-.caret{
+.white-caret{
 	color:white;
 }
 .navbar-login .navbar-text{
