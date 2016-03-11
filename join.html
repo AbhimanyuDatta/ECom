@@ -1,0 +1,124 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel = "icon" type = "icon" href = "images\\icon.jpg"></link>
+		<link rel = "stylesheet" type = "text/css" href = "bootstrap.min.css"></link>
+		<link rel = "stylesheet" type = "text/css" href = "css/helper.css"></link>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!--custom JS-->
+		<script src="js/custom.js"></script>
+		<style>
+			body
+			{
+			
+			}
+			.navbar
+			{
+				height: 50px;
+			}
+			#mainblock
+			{
+				background-color: white;	
+				height: 800px;
+				width: 800px;
+				border: 2px solid black;
+				box-shadow: 10px 10px 7px #888888;
+			}
+			#lnk
+			{
+				text-decoration: none;
+				font-family: "Times New Roman", serif;
+				font-size: 30px;
+			}
+			form input[type = "text"],
+			form input[type = "password"],
+			form input[type = "email"],
+			form input[type = "tel"],
+			form input[type = "date"],
+			form input[type = "submit"]
+			{
+				width: 200px;
+
+			} 
+			form .line
+			{
+				clear: both;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<nav class = "navbar navbar-default" style = "background-color: rgba(1,165,136,0.9);">
+			<div class = "container-fluid">
+				<div class = "navbar-header">
+					<a class = "navbar-brand" href = "index.html" targer = "_blank" style = "color: black">krANzaa</a>
+				</div>
+			</div>
+		</nav>
+		<ul class="nav nav-tabs" style = "margin-left: 100px; width: 500px">
+  			<li class="active"><a data-toggle="tab" href="#indi">Individual</a></li>
+  			<li><a data-toggle="tab" href="#store">Store</a></li>
+		</ul>
+		<div class="tab-content" id = "mainblock" style = "margin-left: 100px">
+	  		<div id="indi" class="tab-pane fade in active">
+	    		<form>
+	    		<fieldset>
+	    		<legend align = "center">Individual</legend>
+	    			<div class = "form-group line" style = "margin-left: 25px">
+	    			Name *<br> 
+	    					<label class = "sr-only" for = "fullname">Name</label>
+	    					<input type = "text" class = "form-control" name = "name" id = "fullname" required></input><br>
+	    			</div>
+	    			<div class = "form-group line" style = "margin-left: 25px">
+	    			Email *<br>
+	    					<label class = "sr-only" for = "emailid">EmailId</label>
+	    					<input type = "text" class = "form-control" name = "email" id = "emailid" required></input><br>
+	    			</div>
+	    			<div class = "form-group line" style = "margin-left: 25px">
+	    			Password *<br>
+	    					<label class = "sr-only" for = "pass">Password</label>
+	    					<input type = "password" class = "form-control" name = "pass" id = "pass" required></input><br>
+	    			</div>
+	    			<div class = "form-group line" style = "margin-left: 25px">
+	    			Confirm Password *<br>
+	    					<label class = "sr-only" for = "conpass">Password</label>
+	    					<input type = "password" class = "form-control" name = "conpass" id = "conpass" required></input><br>
+	    			</div>
+	    			<div class = "form-group line" style = "margin-left: 25px">
+	    			Mobile *<br>
+	    					<label class = "sr-only" for = "mobile">Mobile</label>
+	    					<input type = "tel" class = "form-control" name = "mob" id = "mobile" maxlength = "10" required></input><br>
+	    			</div>
+	    			<div class = "form-group line" style = "margin-left: 25px">
+	    			Birthday<br>
+	    					<label class = "sr-only" for = "bday">DOB</label>
+	    					<input type = "date" class = "form-control" name = "bday" id = "bday"></input><br>
+	    			</div>
+	    			<div class = "form-group line" style = "margin-left: 25px">
+	    			Sex *<br>
+	    				 	<label class = "sr-only" for = "gender">Sex</label>
+	    				 	<input type="radio" name="gender" value="male" checked> Male<br>
+  							<input type="radio" name="gender" value="female"> Female<br>
+  					</div>
+  					<div class="form-group line">
+  						<div style = "margin-left: 25px">
+  							<input type = "checkbox" value = "agree">I accept the Terms and conditions.</input><br><br>
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">Sign in</button>
+					</div>
+
+	    		</fieldset>
+	    		</form>
+	  		</div>
+			<div id="store" class="tab-pane fade">
+		    	<h3>Menu 1</h3>
+		    
+			</div>
+		</div>
+	</body>
+</html>
