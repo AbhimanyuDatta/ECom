@@ -15,7 +15,7 @@
 		<style>
 			body
 			{
-			
+				background-image:url(images\\login1.jpg);
 			}
 			.navbar
 			{
@@ -24,7 +24,7 @@
 			#mainblock
 			{
 				background-color: white;	
-				height: 800px;
+				height: 820px;
 				width: 800px;
 				border: 2px solid black;
 				box-shadow: 10px 10px 7px #888888;
@@ -49,10 +49,15 @@
 			{
 				clear: both;
 			}
+			.btn.btn-primary.btn-block
+			{
+				background-color:rgba(1,165,136,0.9);
+			}
 		</style>
 	</head>
 	
 	<body>
+		<!--Page Header-->
 		<nav class = "navbar navbar-default" style = "background-color: rgba(1,165,136,0.9);">
 			<div class = "container-fluid">
 				<div class = "navbar-header">
@@ -60,65 +65,115 @@
 				</div>
 			</div>
 		</nav>
-		<ul class="nav nav-tabs" style = "margin-left: 100px; width: 500px">
-  			<li class="active"><a data-toggle="tab" href="#indi">Individual</a></li>
-  			<li><a data-toggle="tab" href="#store">Store</a></li>
+		<!--Join Options-->
+		<ul class="nav nav-tabs" style = "margin-left: 100px; width: 200px;color: black">
+			<li class="active"><a data-toggle="tab" href="#indi">Individual</a></li>
+			<li><a data-toggle="tab" href="#store">Store</a></li>
 		</ul>
+		<!--Join Us Pages-->
 		<div class="tab-content" id = "mainblock" style = "margin-left: 100px">
-	  		<div id="indi" class="tab-pane fade in active">
-	    		<form>
-	    		<fieldset>
-	    		<legend align = "center">Individual</legend>
-	    			<div class = "form-group line" style = "margin-left: 25px">
-	    			Name *<br> 
-	    					<label class = "sr-only" for = "fullname">Name</label>
-	    					<input type = "text" class = "form-control" name = "name" id = "fullname" required></input><br>
-	    			</div>
-	    			<div class = "form-group line" style = "margin-left: 25px">
-	    			Email *<br>
-	    					<label class = "sr-only" for = "emailid">EmailId</label>
-	    					<input type = "text" class = "form-control" name = "email" id = "emailid" required></input><br>
-	    			</div>
-	    			<div class = "form-group line" style = "margin-left: 25px">
-	    			Password *<br>
-	    					<label class = "sr-only" for = "pass">Password</label>
-	    					<input type = "password" class = "form-control" name = "pass" id = "pass" required></input><br>
-	    			</div>
-	    			<div class = "form-group line" style = "margin-left: 25px">
-	    			Confirm Password *<br>
-	    					<label class = "sr-only" for = "conpass">Password</label>
-	    					<input type = "password" class = "form-control" name = "conpass" id = "conpass" required></input><br>
-	    			</div>
-	    			<div class = "form-group line" style = "margin-left: 25px">
-	    			Mobile *<br>
-	    					<label class = "sr-only" for = "mobile">Mobile</label>
-	    					<input type = "tel" class = "form-control" name = "mob" id = "mobile" maxlength = "10" required></input><br>
-	    			</div>
-	    			<div class = "form-group line" style = "margin-left: 25px">
-	    			Birthday<br>
-	    					<label class = "sr-only" for = "bday">DOB</label>
-	    					<input type = "date" class = "form-control" name = "bday" id = "bday"></input><br>
-	    			</div>
-	    			<div class = "form-group line" style = "margin-left: 25px">
-	    			Sex *<br>
-	    				 	<label class = "sr-only" for = "gender">Sex</label>
-	    				 	<input type="radio" name="gender" value="male" checked> Male<br>
-  							<input type="radio" name="gender" value="female"> Female<br>
-  					</div>
-  					<div class="form-group line">
-  						<div style = "margin-left: 25px">
-  							<input type = "checkbox" value = "agree">I accept the Terms and conditions.</input><br><br>
+			<!--Customer Join Page-->
+			<div id="indi" class="tab-pane fade in active">
+				<form>
+					<fieldset>
+						<legend align = "center">Individual</legend>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Name *<br> 
+							<label class = "sr-only" for = "fullname">Name</label>
+							<input type = "text" class = "form-control" name = "name" id = "fullname" required></input><br>
 						</div>
-						<button type="submit" class="btn btn-primary btn-block">Sign in</button>
-					</div>
-
-	    		</fieldset>
-	    		</form>
-	  		</div>
-			<div id="store" class="tab-pane fade">
-		    	<h3>Menu 1</h3>
-		    
+						<div class = "form-group line" style = "margin-left: 25px">
+							Email *<br>
+							<label class = "sr-only" for = "emailid">EmailId</label>
+							<input type = "text" class = "form-control" name = "email" id = "emailid" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Password *<br>
+							<label class = "sr-only" for = "pass">Password</label>
+							<input type = "password" class = "form-control" name = "pass" id = "pass" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Confirm Password *<br>
+							<label class = "sr-only" for = "conpass">Password</label>
+							<input type = "password" class = "form-control" name = "conpass" id = "conpass" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Mobile *<br>
+							<label class = "sr-only" for = "mobile">Mobile</label>
+							<input type = "tel" class = "form-control" name = "mob" id = "mobile" maxlength = "10" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Birthday<br>
+							<label class = "sr-only" for = "bday">DOB</label>
+							<input type = "date" class = "form-control" name = "bday" id = "bday"></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Sex *<br>
+							<label class = "sr-only" for = "gender">Sex</label>
+							<input type="radio" name="gender" value="male" checked> Male<br>
+							<input type="radio" name="gender" value="female"> Female<br>
+						</div>
+						<div class="form-group line">
+							<div style = "margin-left: 25px">
+								<input type = "checkbox" value = "agree">I accept the <a href ="">Terms and conditions</a>.</input><br><br><br><br>
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">Sign in</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<!--Store Join Page-->
+			<div id = "store" class="tab-pane fade in">
+				<form>
+					<fieldset>
+						<legend align = "center">Store</legend>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Store Name *<br> 
+							<label class = "sr-only" for = "storename">Name</label>
+							<input type = "text" class = "form-control" name = "name" id = "storename" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Email *<br>
+							<label class = "sr-only" for = "emailid">EmailId</label>
+							<input type = "text" class = "form-control" name = "email" id = "emailid" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Password *<br>
+							<label class = "sr-only" for = "pass">Password</label>
+							<input type = "password" class = "form-control" name = "pass" id = "pass" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Confirm Password *<br>
+							<label class = "sr-only" for = "conpass">Password</label>
+							<input type = "password" class = "form-control" name = "conpass" id = "conpass" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Mobile *<br>
+							<label class = "sr-only" for = "mobile">Mobile</label>
+							<input type = "tel" class = "form-control" name = "mob" id = "mobile" maxlength = "10" required></input><br>
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Store Address *<br>
+							<label class = "sr-only" for = "address">Address</label>
+							<textarea class = "form-control" id = "address" rows="4"></textarea>
+						
+						</div>
+						<div class = "form-group line" style = "margin-left: 25px">
+							Location *<br>
+							<label class = "sr-only" for = "location">Location</label>
+							<input type = "text" class = "form-control" name = "loc" id = "location" required></input>
+							<span class = "help-block">This is used to minimize the search time.</span>
+						</div>
+						<div class="form-group line">
+							<div style = "margin-left: 25px">
+								<input type = "checkbox" value = "agree">I accept the <a href = "#">Terms and conditions</a>.</input><br><br>
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">Sign in</button>
+						</div>
+					</fieldset>
+				</form>
 			</div>
 		</div>
+	
 	</body>
 </html>

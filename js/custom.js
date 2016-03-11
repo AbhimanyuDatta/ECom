@@ -8,6 +8,3 @@ $(window).bind('scroll', function () {
     }
 });
 
-$('div.menu-list a').click(function(e) {
-    e.preventDefault();
-});
