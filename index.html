@@ -108,73 +108,126 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class = "col-sm-2">
-				<ul class="nav nav-pills nav-stacked" id = "left-side">
-					<li class="active"><a href="#">Today's Deals</a></li>
-					<li><a href="#">MEN'S CLOTHING</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">WOMEN'S CLOTHING
-							<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">All Clothing</a></li>
-								<li><a href="#">Ethnic Wear</a></li>
-								<li><a href="#">Western Wear</a></li> 
+				<div class="nav-side-menu">
+					<div class="menu-list">
+						<ul id="menu-content" class="menu-content out">
+							<li>
+								<a href="#">
+									<span class="flaticon"><img src="images/gift-box.png"></span>Today's Deals
+								</a>
+							</li>
+
+							<li  data-toggle="collapse" data-target="#women-wear" class="collapsed ">
+								<a href="javascript:void(0);"><span class="flaticon"><img src="images/women-dress.png"></span> Women's Clothing <span class="arrow"></span></a>
+							</li>
+							<ul class="sub-menu collapse" id="women-wear">
+								<li class="active"><a href="#">All Clothing</a></li>
+								<li><a href="">Ethinic Wear</a></li>
+								<li><a href="#">Western Wear</a></li>
+								<li><a href="#">Designer Wear</a></li>
 							</ul>
-						</li>
-						<li><a href="#">Accessories</a></li>
-					</ul>
-				</div>
-				<div class = "col-sm-10">
-					<center>
-						<div class = "container-fluid">
-							<div class ="jumbotron">
-								<h2>Deals of the day</h2>
-							</div>
-						</div>
-							<div class = "deal-box">
-								<img src = "images\\deal1.jpg" alt = "Deal" title = "Clothes and apparals"></img>
-							</div>
-							<div class = "deal-box">
-								<img src = "images\\deal2.jpg" alt="Deal"></img>
-							</div>
-							<div class = "deal-box">
-								<img src = "images\\deal3.jpg" alt = "Deal" title = "Furnitures"></img>
-							</div>
-							<div class = "deal-box">
-								<img src = "images\\deal4.jpg" alt = "Deal" title = "Login required to view these deals"></img>
-							</div>		
-							<div class = "deal-box">
-								<img src = "images\\deal5.jpg" alt = "Deal" title = "Newest openings near you"></img>
-							</div>
-							<div class = "deal-box">
-								<img src = "images\\deal6.jpg" alt = "Deal" title = "Surprises for everyone"></img>
-							</div>
-							<div class = "deal-box">
-								<img src = "images\\deal7.jpg" alt = "Deal" title = "Buy and sell. Pay your bill."></img>
-							</div>
-							<div class = "deal-box">
-								<img src = "images\\deal8.jpg" alt = "Deal"></img>
-							</div>
-							<br><br>
 
-						</center>
+
+							<li data-toggle="collapse" data-target="#men-wear" class="collapsed">
+								<a href="javascript:void(0);"><span class="flaticon"><img src="images/men-dress.png"></span> Men's Clothing <span class="arrow"></span></a>
+							</li>  
+							<ul class="sub-menu collapse" id="men-wear">
+								<li>Casual Wear</li>
+								<li>Formal Wear</li>
+								<li>Ethnic Wear</li>
+							</ul>
+
+
+							<li data-toggle="collapse" data-target="#kid-wear" class="collapsed">
+								<a href="javascript:void(0);"><span class="flaticon"><img src="images/two.png"></span> Kid's Clothing <span class="arrow"></span></a>
+							</li>
+							<ul class="sub-menu collapse" id="kid-wear">
+								<li>Boy</li>
+								<li>Girl</li>
+								<li>Baby Boy</li>
+								<li>Baby Girl</li>
+							</ul>
+
+							<li data-toggle="collapse" data-target="#accessories" class="collapsed">
+								<a href="javascript:void(0);"><span class="flaticon"><img src="images/sunny.png"></span> Accessories <span class="arrow"></span></a>
+							</li>
+							<ul class="sub-menu collapse" id="accessories">
+								<li>Jwellery</li>
+								<li>Handbags & Clutches</li>
+								<li>Bagpack</li>
+								<li>Eye Wears	</li>
+							</ul>
+
+							<!--<li data-toggle="collapse" data-target="#new" class="collapsed">
+								<a href="javascript:void(0);"><span class="flaticon"><img src="images/gift-box.png"></span> Kid's Clothing <span class="arrow"></span></a>
+							</li>
+							<ul class="sub-menu collapse" id="new">
+								<li>Boy</li>
+								<li>Girl</li>
+								<li>Baby Boy</li>
+								<li>Baby Girl</li>
+							</ul>
+
+
+							<li>
+								<a href="#">
+									<span class="flaticon"><img src="images/gift-box.png"></span></i> Profile
+								</a>
+							</li>-->
+						</ul>
 					</div>
-
-				</center>
+				</div>
 			</div>
-		</div>
+			<div class = "col-sm-10">
+					<div class = "container-fluid">
+						<div class ="jumbotron">
+							<h2>Deals of the day</h2>
+						</div>
+					</div>
+					<div class = "deal-box">
+						<img src = "images\\deal1.jpg" alt = "Deal" title = "Clothes and apparals"></img>
+					</div>
+					<div class = "deal-box">
+						<img src = "images\\deal2.jpg" alt="Deal"></img>
+					</div>
+					<div class = "deal-box">
+						<img src = "images\\deal3.jpg" alt = "Deal" title = "Furnitures"></img>
+					</div>
+					<div class = "deal-box">
+						<img src = "images\\deal4.jpg" alt = "Deal" title = "Login required to view these deals"></img>
+					</div>		
+					<div class = "deal-box">
+						<img src = "images\\deal5.jpg" alt = "Deal" title = "Newest openings near you"></img>
+					</div>
+					<div class = "deal-box">
+						<img src = "images\\deal6.jpg" alt = "Deal" title = "Surprises for everyone"></img>
+					</div>
+					<div class = "deal-box">
+						<img src = "images\\deal7.jpg" alt = "Deal" title = "Buy and sell. Pay your bill."></img>
+					</div>
+					<div class = "deal-box">
+						<img src = "images\\deal8.jpg" alt = "Deal"></img>
+					</div>
+					<br><br>
+
+				
+			</div>
+
 	</div>
-	<h2 style = "text-align: center">About Us</h2>
-	<blockquote style = "text-align: center">
-		krANzaa&trade; is store search and discovery service which facilitates our customers 					
-		to search through local wearable and accessories stores.  
+</div>
+</div>
+<h2 style = "text-align: center">About Us</h2>
+<blockquote style = "text-align: center">
+	krANzaa&trade; is store search and discovery service which facilitates our customers 					
+	to search through local wearable and accessories stores.  
 
-		At krANzaa&trade; our sole aim is to provide information to consumers about the products 
-		that would cater to their needs. We provide information about the stores located near the 
-		customers that sell these products.
+	At krANzaa&trade; our sole aim is to provide information to consumers about the products 
+	that would cater to their needs. We provide information about the stores located near the 
+	customers that sell these products.
 
-		krANzaa&trade; is a one stop web service for locating nearby stores and to get best stores 
-		in a particular locality by providing review by customers.
-	</blockquote>
+	krANzaa&trade; is a one stop web service for locating nearby stores and to get best stores 
+	in a particular locality by providing review by customers.
+</blockquote>
 </div>
 <center>
 	<div class = "navFooter" style = "clear: both">
