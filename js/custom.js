@@ -7,3 +7,7 @@ $(window).bind('scroll', function () {
         $('.fixed-navbar').css("background-color", "");
     }
 });
+
+$('div.menu-list a').click(function(e) {
+    e.preventDefault();
+});
