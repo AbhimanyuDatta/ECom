@@ -90,6 +90,14 @@
   border: 0px solid black;
 }
 
+.daily-deal>img{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
 /* Login CSS */
 
 #mainblock
