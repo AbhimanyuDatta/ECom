@@ -1,8 +1,25 @@
+
+<link rel="stylesheet" href="font-awesome.min.css">
+
+@font-face {
+    font-family: Boogaloo;
+    src: url(../font/Boogaloo-Regular.ttf);
+    font-weight:400;
+}
+
+@font-face {
+    font-family: Orange;
+    src: url("../font/orange.ttf");
+    font-weight:900;
+}
+
 .main-navbar{   
   align:right;
 }
 .navbar-brand{
-  font-size: 50px;
+  margin-top: 5px;
+  font-size: 60px;
+  font-family: 'Orange',cursive;
 }
 .topbar{
 	height: 400px;
@@ -55,6 +72,7 @@
 
 .about-us{
   margin-top: 30px;
+  margin-bottom: 30px;
   background-color:rgba(1,165,136,0.9);
 }
 
@@ -96,6 +114,18 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.social-icons{
+  margin-top: 10px;
+}
+.social-icons i{
+  margin: 5px 5px;
+}
+
+.social-icons i:hover{
+  color: black;
+}
+
 
 
 /* Login CSS */
