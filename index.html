@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>krANzaa</title>
+	<title>krANzaa - Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel = "icon" type = "icon" href = "images\\icon.jpg"></link>
 	<link rel = "stylesheet" type = "text/css" href = "bootstrap.min.css"></link>
@@ -15,8 +15,6 @@
 	
 	<!--custom JS-->
 	<script src="js/custom.js"></script>
-
-
 	<style>
 	#searchbar
 	{
@@ -41,17 +39,17 @@
 	<nav class="navbar navbar-default topbar" id = "web-top">
 
 		<div class="container-fluid fixed-navbar">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#" style = "color: black">krANzaa</a>
+			<div class="navbar-header" id = "icon-top">
+				<a class="navbar-brand" href="#about" style = "color: black">krANzaa</a>
 			</div>
-			<ul class="nav navbar-nav navbar-right navbar-login">
+			<ul class="nav navbar-nav navbar-right navbar-login" id = "ul-top">
 				<li><p class="navbar-text" style = "color: black">Already have an account?</p></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b id="login-text">Login</b> <span class="caret white-caret"></span></a>
 					<ul id="login-dp" class="dropdown-menu">
 						<li>
 							<div class="row">
-								<div class="col-md-12">
+								<div class="col-md-12 col-md-12 col-xs-12">
 									Login via
 									<div class="social-buttons">
 										<a href="https://www.facebook.com/login/" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
@@ -88,8 +86,8 @@
 		</div>	
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
+				<div class="col-sm-2 col-md-2"></div>
+				<div class="col-sm-8 col-md-8 col-xs-8 col-lg-8" id = "search-menu">
 					<form role="form" class="form-inline search-form">
 						<div class="form-group">
 							<select class="form-control">
@@ -101,23 +99,23 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-sm-2"></div>
+				<div class="col-sm-2 col-md-2"></div>
 			</div>
 		</div>
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class = "col-sm-2">
+			<div class = "col-sm-2 col-md-2">
 				<div class="nav-side-menu">
 					<div class="menu-list">
 						<ul id="menu-content" class="menu-content out">
-							<li>
+							<li id = "side-content">
 								<a href="#">
 									<span class="flaticon"><img src="images/gift-box.png"></span>Today's Deals
 								</a>
 							</li>
 
-							<li  data-toggle="collapse" data-target="#women-wear" class="collapsed ">
+							<li id = "side-content" data-toggle="collapse" data-target="#women-wear" class="collapsed" >
 								<a href="javascript:void(0);"><span class="flaticon"><img src="images/women-dress.png"></span> Women's Clothing <span class="arrow"></span></a>
 							</li>
 							<ul class="sub-menu collapse" id="women-wear">
@@ -128,7 +126,7 @@
 							</ul>
 
 
-							<li data-toggle="collapse" data-target="#men-wear" class="collapsed">
+							<li id = "side-content" data-toggle="collapse" data-target="#men-wear" class="collapsed">
 								<a href="javascript:void(0);"><span class="flaticon"><img src="images/men-dress.png"></span> Men's Clothing <span class="arrow"></span></a>
 							</li>  
 							<ul class="sub-menu collapse" id="men-wear">
@@ -138,7 +136,7 @@
 							</ul>
 
 
-							<li data-toggle="collapse" data-target="#kid-wear" class="collapsed">
+							<li id = "side-content" data-toggle="collapse" data-target="#kid-wear" class="collapsed">
 								<a href="javascript:void(0);"><span class="flaticon"><img src="images/two.png"></span> Kid's Clothing <span class="arrow"></span></a>
 							</li>
 							<ul class="sub-menu collapse" id="kid-wear">
@@ -148,7 +146,7 @@
 								<li>Baby Girl</li>
 							</ul>
 
-							<li data-toggle="collapse" data-target="#accessories" class="collapsed">
+							<li id = "side-content" data-toggle="collapse" data-target="#accessories" class="collapsed">
 								<a href="javascript:void(0);"><span class="flaticon"><img src="images/sunny.png"></span> Accessories <span class="arrow"></span></a>
 							</li>
 							<ul class="sub-menu collapse" id="accessories">
@@ -178,7 +176,7 @@
 					</div>
 				</div>
 			</div>
-			<div class = "col-md-10 col-sm-10">
+			<div class = "col-md-10 col-sm-10" id = "center-content">
 					<div class = "container-fluid">
 						<div class ="jumbotron">
 							<h2>Deals of the day</h2>
@@ -217,7 +215,7 @@
 </div>
 </div>
 <h2 style = "text-align: center">About Us</h2>
-<blockquote style = "text-align: center">
+<blockquote style = "text-align: center" id = "about">
 	krANzaa&trade; is store search and discovery service which facilitates our customers 					
 	to search through local wearable and accessories stores.  
 
@@ -230,7 +228,7 @@
 </blockquote>
 </div>
 <center>
-	<div class = "navFooter" style = "clear: both">
+	<div class = "Footer" style = "clear: both">
 		<a href = "#web-top">
 			<div class = "navFooterBackToTop">
 				<span class = "navFooterBackToTopText">Back to Top</span>

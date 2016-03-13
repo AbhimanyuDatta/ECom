@@ -54,6 +54,18 @@
 }
 
 /* Login CSS */
+
+#mainblock
+      {
+        background-color: white;  
+        height: 835px;
+        width: 600px;
+        border: 2px solid black;
+        border-radius: 25px;
+        box-shadow: 10px 10px 7px #888888;
+        margin: 0px auto;
+      }
+
 #login-text{
 	color: black;
     text-decoration: underline;
@@ -106,7 +118,7 @@
     color: #fff;
     background-color:#59b5fa;
 }
-@media(max-width:768px){
+@media (max-width:768px){
     #login-dp{
         background-color: inherit;
         color: #fff;
@@ -250,7 +262,7 @@ a{
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .nav-side-menu {
     position: relative;
     width: 100%;
@@ -275,12 +287,44 @@ a{
     padding-left: 20px;
     line-height: 50px !important;
   }
-}
-@media (min-width: 767px) {
-  .nav-side-menu .menu-list .menu-content {
-    display: block;
+}*/
+@media screen and (max-width: 1200px){
+  #menu-content{
+    width:100%;
   }
+  #search-menu{
+    width:600px;
+  }
+  #center-content{
+    width: 100%;
+  }
+  
 }
+
+/*@media screen and (max-width:999px){
+  #mainblock #top-tabs #passGen body{
+    width: 600px;
+  }
+}*/
+
+/*@media screen and (max-width: 1300px){
+  .topbar{
+    width: 100%;
+  }
+  #search-menu{
+    width: 100%;
+  }
+}*/
+
+/*@media screen and (max-width: 1200px){
+  #side-content{
+    width: 100%;
+  }
+  #center-content{
+    width: 100%;
+  }
+}*/
+
 body {
   margin: 0px;
   padding: 0px;
