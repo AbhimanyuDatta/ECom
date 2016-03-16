@@ -7,3 +7,10 @@ $(window).bind('scroll', function () {
         $('.fixed-navbar').css("background-color", "");
     }
 });
+
+$(function(){
+	$(".sub-menu li").click(function(){
+		
+		$(".popscreen").css("visibility"," visible");
+	});
+});
