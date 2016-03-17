@@ -1,5 +1,5 @@
-	<!DOCTYPE html>
-	<html>
+<!DOCTYPE html>
+<html>
 	<head>
 		<title>krANzaa - Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
 		.topbar
 		{
 			margin-bottom: 0px;
-			background-image: url(images/topbar3.jpg);
+			background-image: url(images/delhi.jpg);
 		}
 		#left-side
 		{
@@ -82,9 +82,9 @@
 					<div class="col-sm-8 col-md-8 col-xs-8 col-lg-8" id = "search-menu">
 						<form role="form" class="form-inline search-form">
 							<div class="form-group" style="width:100%;">
-								<select class="form-control" style="width:120px;">
-									<option value = "Delhi">Delhi NCR</option>
-									<option value = "Mumbai">Mumbai</option>
+								<select class="form-control" id = "cities" onChange = "changeImage()" style="width:120px;">
+									<option value = "images/delhi.jpg">Delhi NCR</option>
+									<option value = "images/mumbai.jpg">Mumbai</option>
 								</select>
 								<input type="text" class="form-control" name = "search" placeholder="Stores near you..." style="width:70%; height:50px;"></input>
 								<button type="submit" class="btn btn-default">Go</button>
@@ -145,7 +145,7 @@
 									<li>Jwellery</li>
 									<li>Handbags & Clutches</li>
 									<li>Bagpack</li>
-									<li>Eye Wears	</li>
+									<li>Eye Wears</li>
 								</ul>
 
 								<!--<li data-toggle="collapse" data-target="#new" class="collapsed">
@@ -280,5 +280,14 @@
 		<div class="popscreen">
 			<p>this is a pop up</p>
 		</div>
+	<script type="text/javascript">
+		function changeImage()
+		{	
+			var e = document.getElementById("cities");
+			var theme = e.options[e.selectedIndex].value;
+			console.log(cities);
+			document.getElementById("web-top").style.backgroundImage = "url("+theme+")";
+		}
+	</script>
 	</body>
-	</html>
+</html>
