@@ -156,10 +156,10 @@
 {
   background-color: lavender;  
   height: 900px;
-  width: 600px;
+  width: 50%;
   border: 2px solid black;
   border-radius: 25px;
-  box-shadow: 7px 7px 5px lavender;
+  box-shadow: 7px;
   margin: 0px auto;
 }
 
